@@ -1,5 +1,8 @@
 # take-async-toolkit
 
+![CI Status](https://img.shields.io/github/workflow/status/clarktozer/take-async-toolkit/CI)
+[![npm version](https://img.shields.io/npm/v/take-async-toolkit.svg)](https://www.npmjs.com/package/take-async-toolkit)
+
 Async actions creator and worker for redux-saga in redux-toolkit.
 
 Only peer dependencies are redux-saga and @reduxjs/toolkit.
