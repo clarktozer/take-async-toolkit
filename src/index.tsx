@@ -14,7 +14,7 @@ export type AsyncActions<TriggerPayload = void, SuccessPayload = void, FailedPay
 
 export function createAsyncActions<TriggerPayload = void, SuccessPayload = void, FailedPayload = void, PendingPayload = void>(
     type: string
-): AsyncActions<TriggerPayload, SuccessPayload, FailedPayload, PendingPayload> {
+) {
     return {
         trigger: createAction(`${type}/trigger`, withPayloadType<TriggerPayload>()),
         pending: createAction(`${type}/pending`, withPayloadType<PendingPayload>()),

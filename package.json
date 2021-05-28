@@ -1,6 +1,6 @@
 {
     "name": "take-async-toolkit",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Async actions creator and worker for redux-saga in redux-toolkit",
     "main": "lib/index.js",
     "types": "./lib",
